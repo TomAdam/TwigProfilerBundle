@@ -1,0 +1,26 @@
+{
+    "name": "coresphere/twig-profiler-bundle",
+    "type": "symfony-bundle",
+    "description": "This bundle collects information about the twig rendering process in Symfony 2 and provides it to WebProfilerBundle.",
+    "keywords": ["twig", "profiler", "debug"],
+    "license": "Custom",
+    "authors": [
+        {
+            "name": "CoreSphere Team",
+            "homepage": "https://github.com/CoreSphere"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "https://github.com/CoreSphere/TwigProfilerBundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.0,<2.2-dev",
+        "symfony/twig-bundle": ">=1.0,<2.2-dev"
+    },
+    "autoload": {
+        "psr-0": { "CoreSphere\\TwigProfilerBundle": "" }
+    },
+    "target-dir": "CoreSphere/TwigProfilerBundle"
+}

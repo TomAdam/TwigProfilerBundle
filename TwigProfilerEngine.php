@@ -7,7 +7,7 @@ use Symfony\Bundle\TwigBundle\TwigEngine;
 use Symfony\Bundle\FrameworkBundle\Templating\GlobalVariables;
 use Symfony\Component\Templating\TemplateNameParserInterface;
 
-class TwigProfiledEngine extends TwigEngine
+class TwigProfilerEngine extends TwigEngine
 {
     protected $profilerService;
 
